@@ -26,6 +26,7 @@
             <directory suffix=".php">src/</directory>
             <exclude>
                 <file>src/Pushy/bootstrap.php</file>
+                <file>src/Pushy/Router/NoMatchingRouteException.php</file>
             </exclude>
         </whitelist>
     </filter>
