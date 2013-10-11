@@ -1,0 +1,21 @@
+{
+    "name": "commentar/json-storage",
+    "description": "This storage mechanism requires no database, but rather stores the data encoded in the JSON format on the filesystem.",
+    "keywords": ["comments", "commentar", "storage", "json", "filesystem"],
+    "homepage": "https://github.com/Commentar/JsonStorage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pieter Hordijk",
+            "email": "info@pieterhordijk.com",
+            "homepage": "https://pieterhordijk.com",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-0": {"Commentar\\": "src/"}
+    }
+}
