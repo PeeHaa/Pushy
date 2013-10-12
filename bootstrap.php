@@ -17,6 +17,9 @@ use Pushy\Storage\ImmutableArray;
 use Pushy\Http\RequestData;
 use Pushy\Http\Request;
 use Pushy\Http\Response;
+use Pushy\Router\RouteFactory;
+use Pushy\Router\Router;
+use Pushy\Router\FrontController;
 
 /**
  * Bootstrap the Commentar library
