@@ -12,7 +12,7 @@
  */
 namespace Commentar;
 
-use Commentar\Pushy\Autoloader;
+use Pushy\Core\Autoloader;
 
 /**
  * Setup the library autoloader
@@ -23,11 +23,6 @@ $autoloader = new Autoloader(__NAMESPACE__, dirname(__DIR__));
 $autoloader->register();
 
 /**
- * Setup the password compat lib
- */
-require __DIR__ . '/Security/password_compat.php';
-
-/**
- * Setup the doctrine/dbal autoloader
+ * Setup the composer dependencies autoloader
  */
 require __DIR__ . '/../../vendor/autoload.php';
