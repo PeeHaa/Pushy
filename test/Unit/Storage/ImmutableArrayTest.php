@@ -39,7 +39,6 @@ class ImmutableArrayTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @covers Pushy\Storage\ImmutableArray::__construct
-     * @covers Pushy\Storage\ImmutableArray::set
      * @covers Pushy\Storage\ImmutableArray::isKeyValid
      */
     public function testIsKeyValidValid()
