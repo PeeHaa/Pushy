@@ -20,7 +20,7 @@ namespace Pushy\Storage;
  * @package    Storage
  * @author     Pieter Hordijk <info@pieterhordijk.com>
  */
-class ArrayStorage implements ImmutableKeyValue
+class ImmutableArray implements ImmutableKeyValue
 {
     /**
      * @var array The array
